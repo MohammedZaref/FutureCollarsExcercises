@@ -14,5 +14,7 @@ class RectangleTest {
 
     @Test
     void shouldGetPerimeter() {
+        var rectangle = new Rectangle();
+        assertEquals(12, rectangle.getPerimeter(2,4));
     }
 }
