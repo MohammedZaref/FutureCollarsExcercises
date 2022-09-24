@@ -9,12 +9,12 @@ class RectangleTest {
     @Test
     void shouldGetArea() {
         var rectangle = new Rectangle();
-        assertEquals(8, rectangle.getArea(2,4));
+        assertEquals(8, rectangle.getArea());
     }
 
     @Test
     void shouldGetPerimeter() {
         var rectangle = new Rectangle();
-        assertEquals(12, rectangle.getPerimeter(2,4));
+        assertEquals(12, rectangle.getPerimeter());
     }
 }
